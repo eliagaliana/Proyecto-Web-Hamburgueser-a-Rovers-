@@ -37,19 +37,7 @@ Los principales elementos del proyecto están organizados de la siguiente manera
 - **/css/style.css** → Hoja de estilos principal.
 - **/css/reset.css** → Archivo para normalizar los estilos base del navegador. 
 - **/img/** → Carpeta con imágenes utilizadas en el diseño (versión desktop y mobile).  
-- **README.md** → Documentación del proyecto.  
-
----
-
-## 🖥️ Diseño Responsive  
-
-El diseño se ha optimizado para garantizar una experiencia visual fluida en distintos dispositivos:  
-
-📱 **Versión móvil:**  
-![Vista móvil](./movil.png)  
-
-💻 **Versión escritorio:**  
-![Vista escritorio](./desktop.png)  
+- **README.md** → Documentación del proyecto.    
 
 ---
 
