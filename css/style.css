@@ -1,0 +1,437 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Handlee:regular);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+@import url(./reset.css);
+
+body {
+    font-family: "Montserrat", Arial;
+}
+
+.informacion {
+    background-color: #21242e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    ul {
+        display: flex;
+        padding: 25px 0;
+        width: 100%;
+        max-width: 1004px;
+
+        li {
+
+            display: flex;
+            width: 25%;
+            margin: 0;
+            justify-content: center;
+
+            i {
+                color: #fa573a;
+                scale: 1.5;
+                cursor: pointer;
+            }
+
+            p {
+                display: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+.navInf {
+    max-width: 1004px;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .centrado {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 25px; 
+        max-width: 1004px;
+        width: 100%;
+
+        .logo {
+            display: flex;
+            position: absolute;
+            left: 15px;
+            justify-content: center;
+            align-items: center;
+            scale: 0.4;
+
+            img {
+                display: flex;
+                align-items: center;
+                position: absolute;
+                left: 0;
+            }
+        }
+
+        .barras {
+            color: grey;
+            display: flex;
+            position: absolute;
+            right: 10%; 
+            justify-content: center;
+            align-items: center;
+            scale: 1.5;
+        }
+    }
+}
+
+.navSup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+
+    ul {
+        color: grey;
+
+        hr {
+            width: 95%;
+            color: grey;
+            margin: 0 auto;
+        }
+
+        li {
+            cursor: pointer;
+            padding: 15px;
+            font-weight: 500;
+        }
+    }
+}
+
+.navSup ul li:first-child {
+    color: #fa573a;
+}
+
+.fondo {
+    background-image: url(../images/fondo.jpg);
+    height: 675px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+    .opacidad {
+        background: rgba(0,0,0,0.5);
+        height: 675px;
+        width: 100%;
+    }
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 200px 15px;
+
+    h1 {
+        font-family: "Handlee";
+        font-weight: 400;
+        color: white;
+        padding: 5px;
+    }
+
+    h2 {
+        font-weight: 500;
+        color: #fa573a;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    p {
+        color: white;
+        font-weight: 400;
+        padding: 5px;
+    }
+
+    .carta {
+        display: inline;
+        background-color: #fa573a;
+        padding: 15px 10px;
+        margin: 10px 0px 20px 0;
+        width: 165px;
+
+        p {
+            display: inline;
+        }
+    }
+
+    i {
+        color: white;
+    }
+}
+
+.iconos {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.titulo {
+    font-family: "Handlee";
+    position: relative;
+
+    h1 {
+        text-align: center;
+        padding: 30px 0px 0px 0px;
+    }
+    
+    span {
+        color: #fa573a;
+    }
+
+    .separador {
+        width: 120px;           /* largo de la línea */
+        height: 3px;            /* grosor */
+        background-color: #fa573a; /* color de la línea */
+        border: none;           /* quita el estilo por defecto */
+        margin: 0px auto 20px auto;      /* centrada */
+    }
+
+    .x {
+        position: absolute;
+        bottom: -13px;
+        left: 49.5%;
+        font-size: 20px;
+        font-weight: 900;
+    }
+}
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1004px;
+
+    .none1 {
+        display: none;
+    }
+    
+
+    article {
+        padding: 20px;
+
+        i {
+            color: #fa573a;
+            padding: 6px;
+            scale: 1.5;
+            margin: 5px;
+        }
+
+        h3 {
+            padding: 10px 0px;
+        }
+
+        .leer1 {
+            color: #fa573a;
+            font-weight: 700;
+            display: flex;
+            cursor: pointer;
+
+            p {
+                padding: 7px 0px;
+            }
+
+            i {
+                scale: 0.9;
+                padding: 5px 0;
+            }
+        }
+
+    }
+
+}
+
+.aboutUs {
+    padding: 10px 0 80px 0;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+.mostrador img {
+    width: 90%;
+    height: auto;
+    z-index: 1;
+}
+
+.cuadradoBlanco {
+    position: absolute;
+    
+    border: 4px solid #fa573a;
+    width: 90%;
+    height: 85%;
+    transform: rotate(10deg); 
+    z-index: 0;
+}
+
+.historia {
+    padding: 20px;
+
+    h3 {
+        padding: 10px 0px;
+    }
+
+    h4 {
+        color: #fa573a;
+        font-weight: 500;
+        padding: 10px 0px;
+    }
+
+    p {
+        color: gray;
+        font-weight: 500;
+        margin: 10px 0px;
+    }
+
+    .leerMas {
+        display: inline-block;
+        background-color: #fa573a;
+        padding: 15px 10px;
+        cursor: pointer;
+
+        p {
+            display: inline;
+            color: white;
+        }
+
+        i {
+            color: white;
+        }
+    }
+}
+
+footer {
+    padding: 30px;
+    display: inline;
+    text-align: center;
+}
+
+@media(width>769px) {
+    .informacion {
+        ul {
+            li {
+                p {
+                    display: inline;
+                    color: white;
+                    padding: 0px 10px;
+                }
+            }
+        }
+    }
+
+    .barras i {
+        display: none;
+    }
+
+    .navInf {
+        display: flex;
+        max-width: 1004px;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .centrado {
+        position: relative;
+
+        .logo img {
+            position: absolute;
+            left: -10px;
+        }
+    }
+
+    .navSup {
+        position: relative;
+        display: flex;
+        align-content: center;
+        padding: 20px;
+
+        ul {
+            display: flex;
+            position: absolute;
+            right: 75px;
+            top: 0px;
+            li {
+                display: flex;
+            }
+        }
+        hr {
+            display: none;
+        }
+    }
+
+    .hero {
+        max-width: 1004px;
+        margin: auto;
+    }
+
+    .servicios {
+        display: flex;
+        flex-direction: row;
+
+        article {
+            width: 33%;
+        }
+
+        .none1 {
+            display: inline;
+        }
+
+        .none2 {
+            display: none;
+        }
+    }
+
+    .contenedorHistoria {
+        display: flex;
+        justify-content: center;
+        max-width: 1004px;
+        margin: auto;
+
+        .historia {
+            display: inline;
+            width: 50%;
+        }
+    }
+
+    .mostrador img {
+        width: 400px;
+        height: 286px;
+        z-index: 1;
+    }
+
+    .cuadradoBlanco {
+        position: absolute;
+        border: 4px solid #fa573a;
+        width: 90%;
+        height: 280.63px;
+        transform: rotate(10deg); 
+        z-index: 0;
+}
+}
