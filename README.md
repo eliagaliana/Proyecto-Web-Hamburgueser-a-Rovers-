@@ -72,4 +72,4 @@ Si tienes alguna pregunta o deseas más información sobre el proyecto, no dudes
 
 - Autor: Elia Galiana
 - Correo: eliagaliana@gmail.com
-- LinkedIn: [https://www.linkedin.com/in/luna-outerelo-4414a0192/](https://www.linkedin.com/in/elia-galiana-sanabria-74992431a/)
+- LinkedIn: www.linkedin.com/in/elia-galiana-sanabria-74992431a
